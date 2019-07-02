@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<title>Verão em Lake Tahoe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="https://www.booking.com/index.pt-br.html" target="_blank" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Reserve o seu hotel</a>
+    <a href="https://www.skyscanner.com.br" target="_blank" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Compre a sua passagem</a>
+    <a href="https://www.alamo.com/pt_BR/car-rental/locations/us/sfot71-san-francisco-international-airport.html" target="_blank" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Alugue um carro</a>
+    <a href="https://br.usembassy.gov/pt/visas-pt/turismo-e-visitante/como-solicitar-um-visto/" target="_blank" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Informações sobre o visto americano</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>VERÃO EM LAKE TAHOE</b></h1>
+  <div style="width: 80%; margin-left: 10%; font-weight: bold; text-align: center;">
+  <p><b>No verão Lake Tahoe é o paraíso dos esportes aquáticos. Seja Caiaque, Jet Ski, Stand Up Paddle, pedalinho ou para os mais radicais um rafting no Rio Truckee. Isso sem falar nas lindas praias de água doce que são perfeitas para simplesmente nadar e curtir. Para quem não gosta tanto água doce, Tahoe tem muitas opções de trilhas e caminhadas para todos os gostos e preparos físicos com direito a lindas vistas do lago contornado por montanhas.</b></p>
+  </div>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Recorte as imagens</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="imagens/summer/sum7.jpg" alt="Casal tomando sol a beira do lago" style="width:100%">
+    <img src="imagens/summer/sum8.jpg" alt="Mulher e cachorro praticando Stand Up Paddle" style="width:100%">
+    <img src="imagens/summer/sum9.jpg" alt="Casal remando no caiaque" style="width:100%">
+    <img src="imagens/summer/sum6.jpg" alt="Pessoas passeando de jetski" style="width:100%">
+    <img src="imagens/summer/sum11.jpg" alt="Casal fazendo Stand Up Paddle" style="width:100%">
+    <img src="imagens/summer/sum12.jpg" alt="Vista aerea de casas a beira do lago" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="imagens/summer/sum3.jpg" alt="Por do sol sobre o lago" style="width:100%">
+    <img src="imagens/summer/sum1.jpg" alt="Clube noturno lotado de gente" style="width:100%">
+    <img src="imagens/summer/sum4.jpg" alt="Vista panoramica de um show a beira do lago" style="width:100%">
+    <img src="imagens/summer/sum2.jpg" alt="Pessoas dançando" style="width:100%">
+    <img src="imagens/summer/sum5.jpg" alt="Teleferico com bela vista do lago" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="imagens/summer/sum13.jpg" alt="Show com sax e plateia" style="width:100%">
+    <img src="imagens/summer/sum14.jpeg" alt="Amigos celebrando em um barco" style="width:100%">
+    <img src="imagens/summer/sum22.jpg" alt="Familia almoçando a beira do lago" style="width:100%">
+    <img src="imagens/summer/sum16.jpg" alt="Amigos bebendo na porta de uma cervejaria" style="width:100%">
+    <img src="imagens/summer/sum17.jpg" alt="Grupo de pessoas fazendo uma trilha" style="width:100%">
+    <img src="imagens/summer/sum21.jpg" alt="Pessoa andando de bicicleta" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+   <p class="w3-medium">Idealizado por: <a href="MeuCV.html" target="_blank" class="w3-hover-text-green">Carlos Eduardo de Sá</a></p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
